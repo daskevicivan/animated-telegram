@@ -1,0 +1,11 @@
+case .changeAnimation(let animation):
+            newText.animation = animation
+        }
+        
+        return newText
+        var newSettings = currentState
+        
+        switch action {
+        case .changeTrim(let videoTrim):
+            newSettings.trim = videoTrim
+            
